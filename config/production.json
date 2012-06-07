@@ -1,0 +1,14 @@
+{
+	"port":		8015,
+	"log": {
+		"stdout": false,
+		"w3c": { "file": "/web/streammachine/logs/w3c.log" }
+	},
+	"streams": {
+		"kpcc": {
+			"source": { "type":"proxy", "url":"http://live.scpr.org" }
+			"host": "localhost:8015",
+			"root_route": true
+		}
+	}
+}
