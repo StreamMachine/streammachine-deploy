@@ -6,7 +6,7 @@
 	},
 	"streams": {
 		"kpcc": {
-			"source": { "type":"proxy", "url":"http://live.scpr.org" }
+			"source": { "type":"proxy", "url":"http://live.scpr.org" },
 			"host": "localhost:8015",
 			"root_route": true
 		}
